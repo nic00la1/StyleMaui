@@ -33,6 +33,9 @@
                    FontAttributes="Bold"
                    BackgroundColor="Yellow"
                    HorizontalOptions="Center"/>
+
+            <Label Text="Czcionka zmieniona" FontFamily="Roboto"/>
+            <Button Text="Przycisk z nową czcionką" FontFamily="Roboto"/>
         </VerticalStackLayout>
     </ScrollView>
 

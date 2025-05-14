@@ -17,6 +17,13 @@
 
             <Label Text="Przykładowy tekst" Style="{StaticResource PrimaryLabelStyle}" />
             <Button Text="Kliknij mnie" Style="{StaticResource PrimaryButtonStyle}" />
+
+            <Border StrokeThickness="2" 
+                    Stroke="Black" 
+                    StrokeShape="RoundRectangle 50"
+                    WidthRequest="100">
+                <Image Source="kaczka.jpg"/>
+            </Border>
         </VerticalStackLayout>
     </ScrollView>
 

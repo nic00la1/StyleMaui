@@ -26,6 +26,13 @@
             </Border>
 
             <Label Text="Przykład customowego koloru" TextColor="{StaticResource CustomAccentColor}"/>
+
+            <Label Text="Ten tekst jest lokalny i wyróżnia się od innych :D ((((To ja się wyróżniam!))))"
+                   FontSize="24"
+                   TextColor="Red"
+                   FontAttributes="Bold"
+                   BackgroundColor="Yellow"
+                   HorizontalOptions="Center"/>
         </VerticalStackLayout>
     </ScrollView>
 
